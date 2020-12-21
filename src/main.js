@@ -22,7 +22,7 @@ function validate() {
 
 	if (valid) {
 		alert ("Login was sucessfully processed.  You will be redirected to the members page now.");
-		 window.open("./index.html", "");
+		 window.open("./landing.html", "");
 		return false;
 	}
 
@@ -54,10 +54,9 @@ function validate() {
 		document.getElementById("menu-btn").style.display="none";
 		document.getElementById("close-btn").style.display="block";
 		}
-		
+
 		function closemenu(){
 		document.getElementById("side-menu").style.display="none";
 		document.getElementById("menu-btn").style.display="block";
 		document.getElementById("close-btn").style.display="none";
 		}
-		
