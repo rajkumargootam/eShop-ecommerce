@@ -1,12 +1,10 @@
+/* login page authentication pages stats from here */
 var count = 2;
 function validate() {
 	//getting the values of username and pasword
 	var un = document.login.username.value;
-	console.log('un :' + un);
 	var pw = document.login.pword.value;
-	console.log('pw :' + pw);
 	var valid = false;
-	console.log('valid :' + valid);
 
 	var unArray = ["rajkumar", "username2", "username3", "username4"];  // as many as you like - no comma after final entry
 	var pwArray = ["123456", "password2", "password3", "password4"];  // the corresponding passwords;
@@ -49,6 +47,8 @@ function validate() {
 
 }
 
+/* login page authentication pages Ends from here */
+/* below code is for menu bar in small screens starts here */
 		function openmenu(){
 		document.getElementById("side-menu").style.display="block";
 		document.getElementById("menu-btn").style.display="none";
@@ -60,3 +60,4 @@ function validate() {
 		document.getElementById("menu-btn").style.display="block";
 		document.getElementById("close-btn").style.display="none";
 		}
+/* below code is for menu bar in small screens ends here */
